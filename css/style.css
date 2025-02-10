@@ -1,0 +1,51 @@
+/* Common CSS start*/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+a,
+a:hover {
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+}
+.container {
+  width: 1140px;
+  margin: auto;
+}
+/* Common CSS end*/
+/* header start */
+header {
+  background-color: #f0fff0;
+}
+.container {
+  overflow: hidden;
+}
+.logo {
+  float: left;
+}
+.logo a {
+  color: black;
+}
+.logo a span {
+  color: crimson;
+}
+nav {
+}
+nav ul {
+  float: right;
+}
+nav ul li {
+  list-style: none;
+  margin: 0 auto;
+  display: inline-block;
+}
+ul li a {
+  text-decoration: none;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+nav ul li a:nth-child(4) {
+  margin-right: 0 !important;
+}
