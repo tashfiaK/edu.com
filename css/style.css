@@ -370,3 +370,15 @@ select {
 .single-support ul li:nth-child(4) {
   padding-bottom: 30px;
 }
+
+/* support */
+.support-banner {
+  background-image: url(../images/support-banner.jpg);
+  opacity: 0.8;
+  background-repeat: no-repeat;
+  background-size: 100%100%;
+}
+.support-banner-content {
+  width: 55%;
+  padding: 240px 20px 180px;
+}
